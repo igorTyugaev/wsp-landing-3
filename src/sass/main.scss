@@ -1,1 +1,12 @@
-@import './common';
+@charset "UTF-8";
+@use 'foundation';
+
+// components
+@import "components/button";
+@import "components/list";
+
+// sections
+@import "sections/promo-tabs";
+@import "sections/promo-slide";
+
+

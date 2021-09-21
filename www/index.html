@@ -1,13 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./assets/main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WSP</title>
+    <link rel="stylesheet" href="./assets/main.css">
 </head>
 <body>
-  <script src="./assets/main.js"></script>
+
+<section class="promo-tabs container js-promo-tabs">
+    <div class="promo-tabs__inner">
+        <ul class="promo-tabs__tabs">
+            <li class="promo-tabs__tab">
+                <button class="button button_primary promo-tabs__btn-tab active">
+                    Стоимость и сроки
+                </button>
+            </li>
+            <li class="promo-tabs__tab">
+                <button class="button button_primary promo-tabs__btn-tab">
+                    Процесс публикации
+                </button>
+            </li>
+            <li class="promo-tabs__tab">
+                <button class="button button_primary promo-tabs__btn-tab">
+                    Подробный аудит с рецензией
+                </button>
+            </li>
+            <li class="promo-tabs__tab">
+                <button class="button button_primary promo-tabs__btn-tab">
+                    Промокод 100$ на первую публикацию
+                </button>
+            </li>
+            <li class="promo-tabs__tab">
+                <button class="button button_primary promo-tabs__btn-tab">
+                    Вакансии
+                </button>
+            </li>
+        </ul>
+        <div class="promo-tabs__content">
+            <!-- 1 SLIDE -->
+            <section class="promo-tabs__page promo-slide promo-slide_effect active">
+                <div class="promo-slide__inner">
+                    <div class="promo-slide__col">
+                        <h2 class="promo-slide__title text text_size_title text_weight_bold text_color_gray-blue">
+                            Опубликуйте научную статью
+                            в рецензируемых журналах из Scopus
+                            и Web of Science <span class="text_color_green">за 12 месяцев</span>
+                        </h2>
+
+                        <p class="promo-slide__desc text text_size_accent">
+                            Подготовим исследование под требования и возьмем на себя весь процесс публикации.
+                            Отправьте рукопись на оценку экспертам сервиса и отслеживайте прогресс в личном кабинете
+                        </p>
+
+                        <div class="promo-slide__btn-group">
+                            <button class="promo-slide__btn button button_secondary">
+                                Узнать стоимость и сроки
+                            </button>
+                        </div>
+                    </div>
+                    <div class="promo-slide__col">
+                        <img class="promo-slide__img"
+                             src="https://picsum.photos/598/399"
+                             alt="Узнать стоимость и сроки">
+                    </div>
+                </div>
+            </section>
+            <!-- 2 SLIDE -->
+            <section class="promo-tabs__page promo-slide promo-slide_effect">
+                <div class="promo-slide__inner">
+                    <div class="promo-slide__col">
+                        <h2 class="promo-slide__title text text_size_title text_weight_bold text_color_gray-blue">
+                            Скачайте презентацию публикационного процесса
+                            с помощью сервиса <span class="text_color_green">World Sci Publ</span>
+                        </h2>
+
+                        <p class="promo-slide__desc text text_size_accent">
+                            В презентации вы найдете:
+                        </p>
+
+                        <ul class="promo-slide__desc list list_color_green">
+                            <li class="text text_size_accent">
+                                что входит в каждый этап публикационного процесса,
+                            </li>
+                            <li class="text text_size_accent">
+                                список выполняющих работу и ответственных за каждый этап специалистов,
+                            </li>
+                            <li class="text text_size_accent">
+                                примеры итоговых документов каждого этапа.
+                            </li>
+                        </ul>
+
+                        <div class="promo-slide__btn-group">
+                            <button class="promo-slide__btn button button_secondary">
+                                Скачать презентацию
+                            </button>
+                        </div>
+                    </div>
+                    <div class="promo-slide__col">
+                        <img class="promo-slide__img"
+                             src="https://picsum.photos/598/399"
+                             alt="Узнать стоимость и сроки">
+                    </div>
+                </div>
+            </section>
+            <!-- 3 SLIDE -->
+            <section class="promo-tabs__page promo-slide promo-slide_effect">
+                <div class="promo-slide__inner">
+                    <div class="promo-slide__col">
+                        <h2 class="promo-slide__title text text_size_title text_weight_bold text_color_gray-blue">
+                            Закажите подробный аудит исследования и пошаговый план для публикации
+                            в <span class="text_color_green">Scopus/Web of Science</span>
+                        </h2>
+
+                        <p class="promo-slide__desc text text_size_accent">
+                            Рецензия от редактора и результаты аудита покажут уровень готовности статьи к началу
+                            публикационных работ.
+                        </p>
+
+                        <p class="promo-slide__desc text text_size_accent">
+                            Чем выше будет качество исходного материала, тем больше шансов быстрее пройти процесс
+                            публикации в журнал с необходимым для Вас рейтингом.
+                        </p>
+
+                        <div class="promo-slide__btn-group">
+                            <button class="promo-slide__btn button button_success">
+                                Загрузить статью на аудит
+                            </button>
+
+                            <button class="promo-slide__btn button button_success">
+                                Как проходит аудит?
+                            </button>
+                        </div>
+                    </div>
+                    <div class="promo-slide__col">
+                        <img class="promo-slide__img"
+                             src="https://picsum.photos/598/399"
+                             alt="Узнать стоимость и сроки">
+                    </div>
+                </div>
+            </section>
+            <!-- 4 SLIDE -->
+            <section class="promo-tabs__page promo-slide promo-slide_effect">
+                <div class="promo-slide__inner">
+                    <div class="promo-slide__col">
+                        <h2 class="promo-slide__title text text_size_title text_weight_bold text_color_gray-blue">
+                            Дарим 100$ на первую публикацию с помощью сервиса
+                            <span class="text_color_green">World Sci Publ</span>
+                        </h2>
+
+                        <p class="promo-slide__desc text text_size_accent">
+                            Получите промокод сейчас, даже если материал не готов к публикации.
+                        </p>
+
+                        <p class="promo-slide__desc text text_size_accent">
+                            Активируйте промокод в течении 2021 года.
+                        </p>
+
+                        <div class="promo-slide__btn-group">
+                            <button class="promo-slide__btn button button_success">
+                                Ввести промокод
+                            </button>
+
+                            <button class="promo-slide__btn button button_success">
+                                Получить промокод
+                            </button>
+                        </div>
+                    </div>
+                    <div class="promo-slide__col">
+                        <img class="promo-slide__img"
+                             src="https://picsum.photos/598/399"
+                             alt="Узнать стоимость и сроки">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+
+<ul class="list list_color_green">
+    <li class="list__item">
+        <p>Lorem ipsum dolor sit amet</p>
+    </li>
+    <li class="list__item">
+        <p>Lorem ipsum dolor sit amet</p>
+    </li>
+    <li class="list__item">
+        <p>Lorem ipsum dolor sit amet</p>
+    </li>
+</ul>
+
+<script src="./assets/main.js"></script>
 </body>
 </html>

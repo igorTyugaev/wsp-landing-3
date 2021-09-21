@@ -1,0 +1,8 @@
+@use '../global' as *;
+
+.first-section {
+  border: 1px solid rebeccapurple;
+  width: 100%;
+  min-height: 50vh;
+  border-radius: .5em;
+}

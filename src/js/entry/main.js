@@ -1,5 +1,6 @@
 import '~/sass/main';
+import {initPromoTabs} from "@/components/promo-tabs";
 
 window.addEventListener('DOMContentLoaded', () => {
-  console.log('doneeee44eee');
+    initPromoTabs();
 });

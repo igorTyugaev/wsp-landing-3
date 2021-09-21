@@ -1,0 +1,39 @@
+@use '../global' as *;
+
+html {
+  background-color: #FFFFFF;
+}
+
+$p-side: 20px;
+$maxWidthContainer: 1200px;
+$maxWidthContainer: $maxWidthContainer + 2 * $p-side;
+
+.container {
+  max-width: $maxWidthContainer;
+  margin: 0 auto;
+  padding: 0 $p-side;
+
+  @media screen and (min-width: $bp-large) {
+    max-width: #{get-vw($maxWidthContainer, $bp-large)};
+    padding: 0 #{get-vw($p-side, $bp-large)};
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    padding: 0 12px;
+  }
+}
+
+.container-full {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 $p-side;
+
+  @media screen and (min-width: $bp-large) {
+    padding: 0 #{get-vw($p-side, $bp-large)};
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    padding: 0 12px;
+  }
+}
+
