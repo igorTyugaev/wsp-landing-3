@@ -1,4 +1,4 @@
-export const initPromoTabs = () => {
+export const PromoTabs = () => {
     const _promoTabs = document.querySelectorAll('.js-promo-tabs');
 
     const initViewPager = (viewPager) => {

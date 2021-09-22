@@ -17,7 +17,7 @@ $list-colors: ("black": #000,
   & > li {
     display: flex;
     align-items: center;
-    margin: 0.25rem;
+    margin-top: 0.8em;
   }
 
   & > li::before {
@@ -26,11 +26,12 @@ $list-colors: ("black": #000,
     width: 0.5em;
     height: 0.5em;
     border-radius: 50%;
-    display: inline-block;
+    display: inline-flex;
     line-height: 0.5em;
     color: white;
     text-align: center;
-    margin-right: 0.5em;
+    margin-right: 0.52em;
+    flex: 0 0 auto;
   }
 
   &_color {

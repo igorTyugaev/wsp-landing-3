@@ -1,6 +1,8 @@
 import '~/sass/main';
-import {initPromoTabs} from "@/components/promo-tabs";
+import {PromoTabs} from "@/components/promo-tabs";
+import {StepsSlider} from "@/components/steps-slider";
 
 window.addEventListener('DOMContentLoaded', () => {
-    initPromoTabs();
+    PromoTabs();
+    StepsSlider();
 });

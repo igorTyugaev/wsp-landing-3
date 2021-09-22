@@ -37,3 +37,36 @@ $maxWidthContainer: $maxWidthContainer + 2 * $p-side;
   }
 }
 
+.mt-a {
+  margin-top: auto;
+}
+
+.mt-b {
+  margin-bottom: auto;
+}
+
+.mt-1em {
+  margin-top: 1em;
+}
+
+.mt-2em {
+  margin-top: 1em;
+}
+
+.mt-05em {
+  margin-top: 0.5em;
+}
+
+.mb-1em {
+  margin-bottom: 1em;
+}
+
+.full-screen {
+  min-height: 100vh;
+}
+
+.m-auto-ws {
+  margin-left: auto;
+  margin-right: auto;
+}
+

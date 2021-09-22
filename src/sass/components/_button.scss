@@ -17,7 +17,7 @@
   align-items: center;
   border-radius: 0.375em;
   cursor: pointer;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 0.5em 0.875em;
@@ -78,5 +78,9 @@
   &:disabled {
     pointer-events: none;
     opacity: 0.65;
+  }
+
+  &_p {
+    margin-top: auto;
   }
 }
